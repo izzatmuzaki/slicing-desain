@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Quicksand&family=Raleway:wght@500&display=swap');
+
+body {
+    height: 2000px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+header {
+    background: url("images/head-bg2.svg");
+    background-size: cover;
+    padding: 0 150px;
+    height: 616px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+}
+
+.nav-logo {
+    font-size: 46px;
+    color: #fff;
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-item li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.nav-item li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.btn-primary {
+    text-decoration: none;
+    color: #fff;
+    background-color: #4cb5ff;
+    padding: 5px 10px;
+    border-style: none;
+    border-radius: 100px;
+}
+
+/* ============ Jumbotron ============ */
+
+.jumbotron {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.jumbo-text {
+    width: 50%;
+    color: #fff;
+}
+
+.jumbo-title {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.jumbo-paragraph {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.btn-secondary {
+    text-decoration: none;
+    color: #fff;
+    background-color: #1e2147;
+    padding: 5px 10px;
+    border-style: none;
+    border-radius: 100px;
+}
+
+/* ============ Our Offers ============ */
+
+.our-offers {
+    padding: 0 150px;
+    height: 681px;
+}
+
+.promo {
+    text-align: center;
+}
+
+.promo h2 {
+    color: #7976fc;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.promo p {
+    padding: 20px 140px;
+}
+
+.promo-category {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.promo-item {
+    padding: 0 10px;
+}
+
+.promo-item h3 {
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+/* ============ PEMBATAS-1 ============ */
+
+.pembatas1 {
+    background: url(images/Group\ 398.svg);
+    padding: 150px;
+    height: 430px;
+    width: 1366px;
+}
+
+.tagline1 {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+}
+
+.isi-tagline1 h2 {
+    font-weight: 400;
+}
+
+.btn-thirdly {
+    text-decoration: none;
+    color: #fff;
+    background-color: #1e2147;
+    padding: 5px 35px;
+    border-style: none;
+    border-radius: 100px;
+}
+
+.install p {
+    padding: 10px 0px;
+}
+
+/* ============ DISPLAY-1 ============ */
+
+.display-1 {
+    text-align: center;
+}
+
+.display-1 h2 {
+    color: #7976fc;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.display-1 p {
+    padding: 20px 250px;
+}
+
+/* =========== PEMBATAS-2 =========== */
+
+.pembatas2 {
+    background: url(images/Group\ 398.svg);
+    padding: 150px;
+    height: 430px;
+    width: 1366px;
+}
+
+.tagline2 {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+}
+
+.isi-tagline2 h2 {
+    font-weight: 400;
+}
+
+.btn-fourthly {
+    text-decoration: none;
+    color: #fff;
+    background-color: #1e2147;
+    padding: 5px 35px;
+    border-style: none;
+    border-radius: 100px;
+}
+
+/* ============ DISPLAY-2 ============ */
+
+.isi-display2 {
+    text-align: center;
+}
+
+.isi-display2 h2 {
+    color: #7976fc;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.isi-display2 p {
+    padding: 20px 250px;
+}
+
+.feature-category {
+    box-sizing: border-box;
+    padding: 20px 100px;
+}
+
+.content {
+    height: 800px;
+}
+
+.box{
+    height: 800px;
+    width: 416px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.box1{
+    border: #000000 solid 1px ;
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    width: 416px;
+    padding: 10px;
+    margin: 50px 0px;
+    box-sizing: border-box;
+}
+
+.logo{
+    border: #000000 solid 1px;
+    padding: 30px;
+    margin: 20px 0px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.text p{
+    line-height: 4;
+    text-align: center;
+}
+
+.text p span{
+    font-weight: 700;
+}
+
+.box ul li{
+    list-style: none;
+    margin: 0px;
+}
+
+.box ul li h4, p{
+    list-style: none;
+    margin: 0px;
+}
